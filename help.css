@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+  
+}
+nav {
+  width: 100%;
+  height: 75px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000; /* keeps navbar above everything */
+  display: flex;
+  justify-content: space-between; /* logo on left, menu on right */
+  align-items: center;
+  background: linear-gradient(rgb(226, 214, 214), rgb(71, 25, 25));
+  box-shadow: 0px 5px 20px black;
+}
+
+nav img {
+  width: 110px;
+  height: 50px;
+  margin-top: 13px;
+  margin-left: 60px;
+}
+
+nav ul {
+  margin-right: 80px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 200px;
+  font-size: 40px;
+  margin-top: 20px;
+}
+
+nav ul li:hover {
+  color: red;
+  font-size: 41px;
+}
+
+
+
+/* middle........ */
+
+.signIn{
+  width: 100%px;
+  height: 500px;
+  margin-top: 100px;
+}
+#help{
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: red;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.line{
+  width: 100%;
+  height: 0;
+  border: 1px solid red;
+}
+
+/* heading..... */
+
+.heading{
+    width: 340px;
+    height: 200px;
+    margin-top: 20px;
+}
+.heading a{
+    text-decoration: none;
+    letter-spacing: 2px;
+    margin-left: 50px;
+    padding: 10px;
+    font-size: 20px;
+}
+.heading hr{
+    width: 360px;
+    color: gray;
+    margin-left: 55px;
+}
+.help{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.description{
+    width: 1000px;
+    height: 600%;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.description a{
+    text-decoration: none;
+}
+.description h5{
+ font-size: 25px;
+ color: red;
+ margin-top: 10px;
+ margin-left: 10px;
+}
+.description h6{
+    color: black;
+    font-size: 22px;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 8px;
+}
+.description p{
+    font-size: 18px;
+    margin-left: 10px;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.brand {
+   margin-left: 1030px;
+  margin-top: 145%;
+}
+.brand img {
+  width: 90px;
+  height: 50px;
+  margin-left: 366px;
+}
+.brand p {
+  margin-top: 5px;
+  margin-left: 180px;
+}
+
+.lastnotification {
+  display: flex;
+  width: 100%;
+  height: 30px;
+  background-color: red;
+  margin-top: 30px;
+}
+.lastnotification p {
+  color: white;
+  font-size: 17px;
+  margin-left: 50px;
+  margin-top: 4px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+  text-align: center;
+  padding: 1em;
+  background-color: #333;
+  color: white;
+}
+footer p{
+    letter-spacing: 2px;
+}

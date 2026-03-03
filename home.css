@@ -1,0 +1,287 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+}
+
+
+nav {
+  width: 100%;
+  height: 75px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000; /* keeps navbar above everything */
+  display: flex;
+  justify-content: space-between; /* logo on left, menu on right */
+  align-items: center;
+  background: linear-gradient(rgb(226, 214, 214), rgb(71, 25, 25));
+  box-shadow: 0px 5px 20px black;
+}
+
+nav img {
+  width: 110px;
+  height: 50px;
+  margin-top: 13px;
+  margin-left: 60px;
+}
+
+nav ul {
+  margin-right: 80px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 200px;
+  font-size: 40px;
+  margin-top: 20px;
+}
+
+nav ul li:hover {
+  color: red;
+  font-size: 41px;
+}
+
+.container{
+  width: 100%;
+  height: auto;
+  margin-top: 100px;
+}
+
+.content h3 {
+  font-size: 80px;
+  margin-top: 0px;
+  text-align: center;
+  color: blueviolet;
+  text-shadow: 3px 3px 8px black;
+}
+.banner {
+  height: 20%;
+  width: 100%;
+}
+.banner img {
+  width: 100%;
+  margin-top: 40px;
+}
+
+.midd {
+  display: flex;
+}
+
+.security {
+  width: 50%;
+  height: auto;
+  margin-top: 100px;
+  margin-left: 50px;
+
+  #info {
+    color: black;
+  }
+}
+.security img{
+    width: 700px;
+}
+
+.security h3 {
+  color: rgba(178, 4, 4, 0.827);
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.security p {
+  color: rgba(178, 4, 4, 0.827);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+.form {
+  width: 370px;
+  height: 350px;
+  border: 2px solid black;
+  background: rgb(227, 232, 233);
+  margin-top: 50px;
+  box-shadow: 2px 2px 8px black;
+  border-radius: 5px;
+}
+.form h6 {
+  font-size: 30px;
+  text-align: center;
+  background: rgb(213, 233, 240);
+  padding: 10px;
+  text-shadow: 2px 2px yellow;
+}
+.label {
+  display: flex;
+  font-size: 19px;
+  font-family: Arial, Helvetica, sans-serif;
+  #left {
+    margin-left: 60px;
+    margin-top: 10px;
+  }
+  #right {
+    margin-left: 100px;
+    margin-top: 10px;
+  }
+  background: rgb(227, 232, 233);
+  height: 35px;
+}
+.input {
+  background: rgb(227, 232, 233);
+  display: flex;
+  height: 40px;
+  #l {
+    width: 140px;
+    margin-left: 30px;
+    font-size: 30px;
+    border-radius: 5px;
+  }
+  #r {
+    width: 140px;
+    margin-left: 22px;
+    font-size: 30px;
+    border-radius: 5px;
+  }
+}
+.bardoce{
+    display: flex;
+}
+.bardoce img{
+    font-size: 28px;
+    margin-top: 20px;
+    margin-left: 33px;
+    width: 140px;
+    height: 48px;
+}
+.bardoce input {
+    margin-top: 20px;
+    width: 140px;
+    height: 46px;
+    margin-left: 22px;
+    font-size: 30px;
+    border-radius: 5px;
+}
+.form button{
+    margin-top: 50px;
+    margin-left: 30px;
+    border-radius: 3px;
+}
+
+.live {
+  width: 350px;
+  height: 350px;
+  margin-top: 50px;
+  margin-left: 50px;
+  border: 2px solid black;
+  border-radius: 5px;
+  text-align: left;
+  margin-left: 30px;
+  box-shadow: 2px 2px 8px black;
+  overflow: hidden;
+}
+
+.live h3 {
+  font-size: 30px;
+  color: rgba(178, 4, 4, 0.827);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 10px;
+  background: gray;
+  text-shadow: 2px 2px black;
+}
+
+.live h6 {
+  font-size: 19px;
+  margin-left: 10px;
+  margin-top: 13px;
+}
+
+.live p {
+  margin-left: 25px;
+  font-size: 16px;
+}
+
+.cardinfo {
+  margin-top: 35px;
+  margin-left: 50px;
+}
+.cardinfo p {
+  margin-left: 20px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.cardinfo h4 {
+  color: rgba(178, 4, 4, 0.827);
+  font-size: 26px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.imageCard {
+  margin-top: 10px;
+  margin-left: 50px;
+  display: flex;
+}
+.imageCard img{
+  width: 250px;
+}
+
+.imageCard p {
+  margin-left: 10px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.brand {
+  margin-left: 1030px;
+}
+.brand img {
+  width: 90px;
+  height: 50px;
+  margin-left: 370px;
+}
+.brand p {
+  margin-top: 5px;
+  margin-left: 180px;
+}
+
+.lastnotification {
+  display: flex;
+  width: 100%;
+  height: 30px;
+  background-color: red;
+  margin-top: 30px;
+}
+.lastnotification p {
+  color: white;
+  font-size: 17px;
+  margin-left: 50px;
+  margin-top: 4px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+  text-align: center;
+  padding: 1em;
+  background-color: #333;
+  color: white;
+}
+footer p{
+    letter-spacing: 2px;
+}
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .banner {
+        flex-direction: column;
+    }
+
+    .banner img {
+        width: 100%;
+    }
+}

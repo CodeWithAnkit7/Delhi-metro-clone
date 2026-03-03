@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>www.user_login.com</title>
+  <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+   <nav class="header-logo">
+            <img src="./Delhi_Metro_logo.png" alt="logo">
+            <ul>
+                <a href="home.html">
+                    <li>Home</li>
+                </a>
+                <a href="login.html">
+                    <li>Login</li>
+                </a>
+                <a href="ContactUs.html">
+                    <li>Contact</li>
+                </a>
+                <a href="help.html">
+                    <li>Help</li>
+                </a>
+            </ul>
+          </nav>
+  <div class="container">
+    <img src="./Delhi_Metro_logo.png" alt="logo">
+    <h1>Delhi Metro Card Management</h1>
+
+    <div class="card-info">
+      <p><strong>Card Holder:</strong> <span id="cardHolder">Ankit Sharma</span></p>
+      <p><strong>Card Number:</strong> <span id="cardNumber">1234-5678-9012</span></p>
+      <p><strong>Balance:</strong> ₹<span id="balance">100</span></p>
+    </div>
+
+    <div class="actions">
+      <input type="number" id="rechargeAmount" placeholder="Recharge Amount" />
+      <button onclick="recharge()">Recharge Card</button>
+
+      <input type="number" id="travelFare" placeholder="Fare for Travel" />
+      <button onclick="travel()">Travel (Deduct Fare)</button>
+    </div>
+
+    <div class="message" id="message"></div>
+
+    <div class="history">
+      <h3>Transaction History</h3>
+      <ul id="historyList">
+        <!-- history items here -->
+      </ul>
+    </div>
+  </div>
+
+   <div class="brand">
+            <img src="logocom.png" alt="comlogo">
+            <p>Last Update: Monday, June 23 2025 01:40 PM</p>
+        </div><hr>
+   <div class="lastnotification">
+            <p>FAQs |</p>
+            <p>Contact Us |</p>
+            <p>Disclaimer |</p>
+            <p>Term & Conditions |</p>
+        </div>
+        <footer>
+            <p>&copy; Website:  www.delhimetrorail.com Copyright 1999-2014 Delhi Metro Rail Corporation Ltd. (DMRC). All
+                rights reserved</p>
+            <p>contact me 6388519421 or</p>
+            <a>ank1372003@gmail.com</a>
+        </footer>
+
+ <script src="./script.js"></script>
+</body>
+</html>
